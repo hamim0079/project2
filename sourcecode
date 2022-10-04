@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Project 2</title>
+	<style>
+		.nav {
+			width: 250px;
+			text-align: left;
+			padding-bottom: 550px;
+		}
+		.cont {
+			width: 1000px;
+			text-align: left;
+			border: 2px solid black;
+		}
+		.list {
+			list-style-type: none;
+		}
+		.ul {
+			list-style-type: square;
+		}
+	</style>
+</head>
+<body background="tech.jpg">
+	<table>
+		<tr>
+			<th class="nav">
+				<h2>Technical<br>Documentation</h2>
+				<li class="list"><a href="https://www.google.com/search?q=introduction&oq=introduction&aqs=chrome..69i57j46i512j0i131i433j0i512j46i512j0i131i433i512j0i512l2j46i512j0i512.2112j0j7&sourceid=chrome&ie=UTF-8">Introduction</li>
+				<li class="list"><a href="https://www.google.com/search?q=what+you+should+already+know&oq=what+you+should+already+know+&aqs=chrome..69i57j0i22i30.4576j0j9&sourceid=chrome&ie=UTF-8">What you should already know</li>
+				<li class="list"><a href="https://www.google.com/search?q=about+topic&oq=about+topic&aqs=chrome..69i57j0i131i433i512j0i433i512j0i512j0i131i433i512j69i65l3.1648j0j9&sourceid=chrome&ie=UTF-8">About Topic</li>
+				<li class="list"><a href="https://www.google.com/search?q=topic+1&oq=topic+1&aqs=chrome..69i57j0i512l6j69i65.1080j0j9&sourceid=chrome&ie=UTF-8">Topic 1</li>
+				<li class="list"><a href="https://www.google.com/search?q=topic+2&ei=MMc7Y4HsA5GdseMP76mhyAM&ved=0ahUKEwiBxPSg7sX6AhWRTmwGHe9UCDkQ4dUDCA4&uact=5&oq=topic+2&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEIAEMgUIABCRAjIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgoIABBHENYEELADOgcIABCwAxBDOgoIABCRAhBGEP8BSgQIQRgASgQIRhgAUJ4HWJYIYJgQaAFwAXgAgAGvAYgBxQKSAQMwLjKYAQCgAQHIAQrAAQE&sclient=gws-wiz">Topic 2</li>
+			</th>
+			<th class="cont">
+				<div class="cont">
+					<h1>Introduction</h1>
+					<p>Some content about the main topic, for example Java documentation introduction about the language</p>
+				</div>
+				<div class="cont">
+				<h1>What you should already know</h1>
+				<p>Background information before getting into the topic:</p>
+				<ul class="ul">
+					<li>Some list content</li>
+					<li>Prerequisites</li>
+					<li>Workings and assumptions</li>
+				</ul>
+				<p>Any other content to be covered before learning this topic</p>
+				</div>
+				<div class="cont">
+				<h1>About Topic</h1>
+				<p>More lines about the topic. For example, how the basic functionality works, features etc...<br>Technical documentation should be thorough and to the point <br>Write about features, comparisons with other languages etc</p>
+				</div>
+				<div class="cont">
+				<h1>Topic 1</h1>
+				<p>Getting started with the actual documentation content</p>
+				</div>
+				<div class="cont">
+				<h1>Topic 2</h1>
+				<p>Another topic about the main topic, for example, if the topic is Java, this could be variables or data types in Java </p>
+				</div>
+				<div class="cont">
+				<h1>Source Code</h1>
+				<p><a href="https://projects.42web.io/project2/sourcecode.txt">Click Here</a></p>
+				</div>
+			</th>
+		</tr>
+	</table>
+</body>
+</html>
